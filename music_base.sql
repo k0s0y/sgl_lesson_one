@@ -5,14 +5,12 @@ create table if not exists genres(
 
 create table if not exists authors(
   id serial primary key,
-  name varchar(60),
-  genre_id serial references genres(id)
+  name varchar(60)
   );
 
 create table if not exists albums(
   id serial primary key,
-  name varchar(60),
-  author_id serial references authors(id)
+  name varchar(60)
   );
 
 create table if not exists tracks(
