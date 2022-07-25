@@ -10,7 +10,8 @@ create table if not exists authors(
 
 create table if not exists albums(
   id serial primary key,
-  name varchar(60)
+  name varchar(60),
+  date_of_release date not null
   );
 
 create table if not exists tracks(
@@ -23,8 +24,7 @@ create table if not exists tracks(
 create table if not exists collections(
   id serial primary key,
   name varchar(60),
-  date_of_relise date not null,
-  track_id serial references tracks(id)
+  date_of_release date not null
   );
 
 create table artists_genres(
