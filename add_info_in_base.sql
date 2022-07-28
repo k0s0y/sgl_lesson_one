@@ -27,6 +27,8 @@ insert into albums (name, date_of_relise) values ('Album 7', '2021-07-20');
 insert into albums (name, date_of_relise) values ('Album 8', '2021-08-20');
 insert into albums (name, date_of_relise) values ('Album 9', '2018-08-20');
 insert into albums (name, date_of_relise) values ('Album 10', '2018-08-20');
+insert into albums (name, date_of_relise) values ('Album 11', '2019-08-20');
+insert into albums (name, date_of_relise) values ('Album 12', '2020-04-20');
 
 --Вносим треки(15)
 insert into tracks (name, time, album_id) values ('Track 1', 5.01, 1);
@@ -45,6 +47,18 @@ insert into tracks (name, time, album_id) values ('Track 13', 3.01, 4);
 insert into tracks (name, time, album_id) values ('Track 14', 0.11, 3);
 insert into tracks (name, time, album_id) values ('Track 15', 2.01, 3);
 insert into tracks (name, time, album_id) values ('My track', 2.01, 3);
+insert into tracks (name, time, album_id) values ('Track 17', 7.05, 9);
+insert into tracks (name, time, album_id) values ('Track 18', 3.12, 9);
+insert into tracks (name, time, album_id) values ('Track 19', 3.15, 10);
+insert into tracks (name, time, album_id) values ('Track 20', 2.11, 10);
+insert into tracks (name, time, album_id) values ('Track 21', 4.13, 11);
+insert into tracks (name, time, album_id) values ('Track 22', 2.22, 11);
+insert into tracks (name, time, album_id) values ('Track 23', 3.33, 11);
+insert into tracks (name, time, album_id) values ('Track 24', 4.04, 12);
+insert into tracks (name, time, album_id) values ('Track 25', 1.48, 12);
+insert into tracks (name, time, album_id) values ('Track 26', 4.12, 12);
+insert into tracks (name, time, album_id) values ('Track 27', 8.25, 12);
+insert into tracks (name, time, album_id) values ('Track 28', 8.50, 12);
 
 
 --вносим сборники(8)
