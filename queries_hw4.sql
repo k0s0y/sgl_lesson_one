@@ -1,4 +1,6 @@
 --количество исполнителей в каждом жанре;
+select genre_id, count(author_id) from artists_genres
+group by genre_id
 
 --количество треков, вошедших в альбомы 2019-2020 годов;
 
