@@ -84,7 +84,7 @@ insert into artists_genres (genre_id, author_id) values (2,6);
 insert into artists_genres (genre_id, author_id) values (3,7);
 insert into artists_genres (genre_id, author_id) values (4,8);
 
---Заполняем промежуточную таблицу с альбомами авторов (8)
+--Заполняем промежуточную таблицу с альбомами авторов
 insert into author_albums (author_id, album_id) values (2,1);
 insert into author_albums (author_id, album_id) values (3,1);
 insert into author_albums (author_id, album_id) values (1,3);
@@ -95,6 +95,10 @@ insert into author_albums (author_id, album_id) values (6,7);
 insert into author_albums (author_id, album_id) values (8,8);
 insert into author_albums (author_id, album_id) values (7,8);
 insert into author_albums (author_id, album_id) values (8,2);
+insert into author_albums (author_id, album_id) values (1,9);
+insert into author_albums (author_id, album_id) values (2,10);
+insert into author_albums (author_id, album_id) values (3, 11);
+insert into author_albums (author_id, album_id) values (4,12);
 
 --Заполняем промежуточную таблицу с коллекциями треков (5)
 insert into track_collections (track_id, collection_id) values (1,1);
