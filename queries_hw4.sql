@@ -62,6 +62,6 @@ having  count(t.id) in (
 	from Albums a 
 	join tracks t ON a.id = t.album_id 
 	group by a.name 
-	order by count(t.id) 
-  limit 1)
+	order by count(t.id)
+	limit 1)
 
